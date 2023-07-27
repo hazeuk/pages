@@ -9,7 +9,7 @@ function Time() {
 
  var month = date.getMonth() + 1;
 
- var day = date.getDay();
+ var day = date.getDate();
 
  var hour = date.getHours();
  // Get current minute
