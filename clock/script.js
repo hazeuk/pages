@@ -7,8 +7,10 @@ function Time() {
 
  var year = date.getYear() - 100 + 3031;
 
- var month = date.getMonth() + 1;
-
+ 
+ var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+ var month = monthNames[date.getMonth()];
+ 
  var day = date.getDate();
 
  var hour = date.getHours();
